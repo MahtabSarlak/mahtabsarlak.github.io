@@ -44,20 +44,11 @@ function Home() {
                 style={{ maxHeight: "450px" }}
               />
             </Col>
-            <Col>
-          <Button
-            variant="primary"
-            href={pdf}
-            // target="_blank"
-            style={{ maxWidth: "250px" }}
-          >
-            <AiOutlineDownload />
-            &nbsp;Download CV
-          </Button>
-</Col>
           </Row>
         </Container>
+        
       </Container>
+      <ResumeNew />
       <Home2 />
       <Skills />
       

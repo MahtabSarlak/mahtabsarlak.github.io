@@ -132,6 +132,10 @@ button:focus {
   padding-bottom: 30px !important;
   padding-top: 30px !important;
 }
+.resume-section{
+  background-image: var(--image-gradient), url(./Assets/bg-5.jpg) !important;
+  padding-top: 0px;
+}
 
 .home-content {
   padding: 9rem 0 2rem !important;

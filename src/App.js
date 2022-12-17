@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import Preloader from "../src/components/Pre";
-import Home from "./components/Home/Home";
+import Index from "./components/Home/Index";
 // import About from "./components/About/About";
 // import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
-// import Resume from "./components/Resume/ResumeNew";
+// import Resume from "./components/Resume/Index";
 import Socialicons from "./components/socialicons/index";
 
 import {
@@ -35,7 +35,7 @@ function App() {
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <ScrollToTop />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Index />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Socialicons />

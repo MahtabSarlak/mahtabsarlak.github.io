@@ -342,25 +342,7 @@ button:focus {
   margin-bottom: calc(3rem + 5.128vw)
 }
 
-.gradient-btn {
-  border-image: linear-gradient(135deg,#ffde03,#ff0266);
-  border-image-slice: 1;
-  cursor: pointer;
-  border-width: 2px;
-    border-style: solid;
-    display: inline-block;
-    position: relative;
-    padding: 0.8rem 1.6rem;
-    font-weight: 700;
-    line-height: 1;
-    z-index: 1;
-    transition: all .6s cubic-bezier(.19,1,.22,1);
-}
 
-.gradient-btn:hover, .gradient-btn:focus {
-  background-color: #e91e63;
-  color: #fff;
-}
 
 .project-card {
   padding-top: 50px !important;
@@ -426,20 +408,52 @@ button:focus {
   opacity: 0.8 !important;
   border-radius: 0px !important;
 }
+.gradient-btn {
+  border-image: linear-gradient(135deg,#ffde03,#ff0266);
+  border-image-slice: 1;
+  cursor: pointer;
+  border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    position: relative;
+    padding: 0.8rem 1.6rem;
+    font-weight: 700;
+    line-height: 1;
+    z-index: 1;
+    transition: all .6s cubic-bezier(.19,1,.22,1);
+}
 
+.gradient-btn:hover, .gradient-btn:focus {
+  background-color: #e91e63;
+  color: #fff;
+}
 .btn {
-  color: #5f6ef8 !important;
-  background-color: #fff !important;
-  /* border-color: #623686 !important;
-  border: thick !important; */
+  /* color: #5f6ef8 !important; */
+  background-color: transparent !important;
+    border-image: linear-gradient(135deg,#03eeff,#5f6ef8) !important;
+    border-image-slice: 1 !important;
+    border-width: 2px;
+    background-image: linear-gradient(135deg,#03eeff,#5f6ef8) !important;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    /* display: inline-block;
+    position: relative;
+    padding: 0.8rem 1.6rem;
+    font-weight: 700;
+    line-height: 1; */
+    z-index: 1;
+    transition: all .6s cubic-bezier(.19,1,.22,1);
   max-width: "250px";
 }
 
 .btn:hover {
-  color: #5f6ef8 !important;
-  background-color: #fff !important;
-  box-shadow: 0px 0px 5px 2px  #5f9cf8 !important;
-  text-shadow:0px 0px 1px  #5f9cf8 !important; 
+  /* color: #5f6ef8 !important;
+  background-color: #fff !important; */
+  color: #fff !important;
+  transition: all .6s cubic-bezier(.19,1,.22,1);
+  background: linear-gradient(to bottom, red, purple)
+  /* box-shadow: 0px 0px 5px 2px  #5f9cf8 !important;
+  text-shadow:0px 0px 1px  #5f9cf8 !important;  */
   /* border-color: #833686 !important;
   border: thick !important; */
 }

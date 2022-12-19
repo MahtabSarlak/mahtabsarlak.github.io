@@ -23,7 +23,6 @@ function Resume() {
         <Particle />
         <Row style={{ paddingLeft: 50, position: "relative" }}>
           <Button
-            variant="primary"
             href={pdf}
             // target="_blank"
             style={{ maxWidth: "250px" }}

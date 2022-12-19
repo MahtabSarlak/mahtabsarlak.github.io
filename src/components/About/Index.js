@@ -9,12 +9,17 @@ import {
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
-function Home2() {
+function About() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-          <Col md={8} className="home-about-description">
+        <Col md={4} className="myAvtar">
+            <Tilt>
+              <img src={myImg} className="img-fluid" alt="avatar" />
+            </Tilt>
+          </Col>
+          <Col md={8} className=" ">
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="blue"> INTRODUCE </span> MYSELF
             </h1>
@@ -32,54 +37,10 @@ function Home2() {
             Regarding research interest, I am genuinely passionate about using NLP and Computer Vision techniques to address a wide range of theoretical and application issues, such as improving the performance of multimodal representation learning methods, and recommender systems.
             </p>
             </Col>
-          <Col md={4} className="myAvtar">
-            <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
-            </Tilt>
-          </Col>
         </Row>
-        <Row>
-          <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
-            <p>
-              Feel free to <span className="blue">connect </span>with me
-            </p>
-            <ul className="home-about-social-links">
-              <li className="social-icons">
-                <a
-                  href="https://github.com/MahtabSarlak"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiFillGithub />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="sarlak3@gmail.com"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiFillMail />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/mahtab-sarlak-10b275161"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <FaLinkedinIn />
-                </a>
-              </li>
-            </ul>
-          </Col>
-        </Row>
+        
       </Container>
     </Container>
   );
 }
-export default Home2;
+export default About;

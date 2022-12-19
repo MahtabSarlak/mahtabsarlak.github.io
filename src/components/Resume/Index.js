@@ -11,7 +11,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 const resumeLink =
   "https://raw.githubusercontent.com/soumyajit4419/portfolio/master/src/Assets/Soumyajit_Behera-BIT_MESRA.pdf";
 
-function ResumeNew() {
+function Resume() {
   const [width, setWidth] = useState(1200);
 
   useEffect(() => {
@@ -19,7 +19,6 @@ function ResumeNew() {
   }, []);
 
   return (
-    <div>
       <Container fluid className="resume-section">
         <Particle />
         <Row style={{ paddingLeft: 50, position: "relative" }}>
@@ -34,8 +33,7 @@ function ResumeNew() {
           </Button>
         </Row>
       </Container>
-    </div>
   );
 }
 
-export default ResumeNew;
+export default Resume;

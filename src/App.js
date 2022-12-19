@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Preloader from "../src/components/Pre";
-import Home from "./components/Home/Home";
+import Home from "./components/Home/Index";
 // import About from "./components/About/About";
 // import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";

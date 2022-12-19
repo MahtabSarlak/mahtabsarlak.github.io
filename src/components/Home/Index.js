@@ -2,14 +2,17 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import Home2 from "./Home2";
+import About from "../About/Index";
+import Resume from "../Resume/Index";
 import pdf from "../../Assets/../Assets/Soumyajit_Behera-BIT_MESRA.pdf";
-import Skills from "./Skills";
+import Skills from "../Skills/Index";
+import Project from "../Project/Index";
 import Type from "./Type";
 import {
   AiOutlineDownload,
 } from "react-icons/ai";
-import ResumeNew from "../Resume/ResumeNew";
+import ResumeNew from "../Resume/Index";
+import Certificate from "../certificate/Index";
 
 function Home() {
   return (
@@ -36,7 +39,7 @@ function Home() {
               </div>
             </Col>
 
-            <Col md={4} style={{ paddingBottom: 20 }}>
+            <Col md={4} style={{ paddingBottom: 0 }}>
               <img
                 src="https://media.giphy.com/media/f6hnhHkks8bk4jwjh3/giphy.gif"
                 alt="home pic"
@@ -46,12 +49,12 @@ function Home() {
             </Col>
           </Row>
         </Container>
-        
       </Container>
-      <ResumeNew />
-      <Home2 />
+      <Resume />
+      <About />
       <Skills />
-      
+      <Certificate />
+      <Project />
     </section>
   );
 }

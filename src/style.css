@@ -509,6 +509,11 @@ html {
   box-shadow: 0 1px 10px 3px #7088f0 !important;
 }
 
+.project_card__view__img{
+  min-height: 150px;
+  max-height: 150px;
+}
+
 /* --------- */
 /* Contact */
 /* --------- */

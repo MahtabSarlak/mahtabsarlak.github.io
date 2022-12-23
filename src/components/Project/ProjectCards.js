@@ -9,7 +9,7 @@ function ProjectCards(props) {
   return (
     <Fade bottom>
     <Card className="project_card__view" justify="center">
-      <Card.Img variant="top" src={props.imgPath} alt="card-img" />
+      <Card.Img variant="top" src={props.imgPath} alt="card-img" className="project_card__view__img" />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>

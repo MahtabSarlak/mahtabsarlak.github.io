@@ -4,9 +4,9 @@ import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import About from "../About/Index";
 import Resume from "../Resume/Index";
-import pdf from "../../Assets/../Assets/Soumyajit_Behera-BIT_MESRA.pdf";
 import Skills from "../Skills/Index";
 import Project from "../Project/Index";
+import Contact from "../Contact/Index"
 import Type from "./Type";
 import {
   AiOutlineDownload,
@@ -17,33 +17,32 @@ import Certificate from "../certificate/Index";
 function Home() {
   return (
     <section>
-      <Container fluid className="home-section" id="home">
+      <Container fluid className="home_section" id="home">
         <Particle />
-        <Container className="home-content">
+        <Container className="home_section__content">
           <Row>
-            <Col md={8} className="home-header">
-              <h1 style={{ paddingBottom: 15 }} className="heading">
+            <Col md={8} className="home_section__header">
+              <h1 className="home_section__header__heading">
                 Hi There!{" "}
-                <span className="wave" role="img" aria-labelledby="wave">
+                <span className="home_section__header__wave" role="img" aria-labelledby="wave">
                   👋🏻
                 </span>
               </h1>
 
-              <h1 className="heading-name">
+              <h1 className="home_section__header__heading_name">
                 I'M
-                <strong className="main-name"> Mahtab Sarlak</strong>
+                <strong className="home_section__header__main_name"> Mahtab Sarlak</strong>
               </h1>
 
-              <div style={{ padding: 50, textAlign: "left" }}>
+              <div className="home_section__header__type">
                 <Type />
               </div>
             </Col>
-
             <Col md={4} style={{ paddingBottom: 0 }}>
               <img
                 src="https://media.giphy.com/media/f6hnhHkks8bk4jwjh3/giphy.gif"
                 alt="home pic"
-                className="img-fluid"
+                className="home_section__header__img_fluid"
                 style={{ maxHeight: "450px" }}
               />
             </Col>
@@ -55,6 +54,7 @@ function Home() {
       <Skills />
       <Certificate />
       <Project />
+      <Contact />
     </section>
   );
 }

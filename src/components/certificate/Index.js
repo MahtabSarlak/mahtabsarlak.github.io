@@ -1,9 +1,11 @@
 import React from "react";
 import { Container, Row, Col, Carousel } from "react-bootstrap";
-import img1 from "../../Assets/mb.png";
-import img2 from "../../Assets/nlp.png";
+import img1 from "../../Assets/certificate/mb.png";
+import img2 from "../../Assets/certificate/nlp.png";
 import Tilt from "react-parallax-tilt";
 import Particle from "../Particle";
+import Fade from 'react-reveal/Fade';
+import Bounce from 'react-reveal/Bounce';
 import {
   AiFillGithub,
   AiFillMail,
@@ -13,27 +15,29 @@ import { FaLinkedinIn } from "react-icons/fa";
 
 function Certificate() {
   return (
-    <Container fluid className="certificate-section" id="certificate">
+    <Container fluid className="certificate_section" id="certificate">
     <Container>
     <Particle/>
       <Row >
         <Col md={8} style={{paddingBottom: '3rem'}}>
-            <h1 style={{ fontSize: "2.6em"  }}>
+        <Bounce left>
+        <h1 className="section__heading">
               Certificate
             </h1>
+            </Bounce>
             </Col>
             <Col md={12}>
       <Carousel>
       <Carousel.Item>
         <img
-          className="slide_img"
+          className="certificate_section__slide_img"
           src={img2}
           alt="First slide"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="slide_img"
+          className="certificate_section__slide_img"
           src={img1}
           alt="Second slide"
         />

@@ -3,7 +3,7 @@ import Preloader from "../src/components/Pre";
 import Home from "./components/Home/Index";
 // import About from "./components/About/About";
 // import Projects from "./components/Projects/Projects";
-import Footer from "./components/Footer";
+import Footer from "./components/Footer/Index";
 // import Resume from "./components/Resume/ResumeNew";
 import Socialicons from "./components/socialicons/index";
 

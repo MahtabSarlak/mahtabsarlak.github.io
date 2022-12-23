@@ -1,9 +1,8 @@
 import React from "react";
-import "./style.css";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import Particle from "../Particle";
+import Fade from 'react-reveal/Fade';
 import {
   AiFillGithub,
   AiFillMail,
@@ -13,35 +12,33 @@ import { FaLinkedinIn } from "react-icons/fa";
 
 function Skills() {
   const skills = [{
-    name: "Python",
+    name: "Python/Pytorch/Tenserflow",
     value: 90,
 },
 {
-    name: "Djano",
+    name: "Java/SpringBoot",
     value: 85,
 },
 {
     name: "Javascript",
-    value: 80,
+    value: 70,
 },
 {
-    name: "React",
-    value: 60,
-},
-{
-    name: "Jquery",
-    value: 85,
+    name: "React/Angular",
+    value: 70,
 },
 ];
   return (
-    <Container fluid className="skill-section" id="skill">
+    <Container fluid className="skill_section" id="skill">
       <Container style={{ paddingBottom: '11rem'}}>
       <Particle />
-      <Row className="sec_sp">
-          <Col md={5} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em"  }}>
+      <Row className="section__row">
+          <Col md={5}>
+          <Fade left>
+          <h1 className="section__heading">
               Selected <span className="blue"> Skills </span>
             </h1>
+            </Fade>
             </Col>
             <Col md={7}>
           {skills.map((data, i) => {
@@ -62,7 +59,7 @@ function Skills() {
               );
             })}
             <br/>
-            <p className="skill-sec2">
+            <p className="skill_section__eng">
             <h4>English Language Proficiency (IELTS)</h4>
             <b>Overall (8)
             </b>

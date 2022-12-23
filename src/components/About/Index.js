@@ -1,7 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/project/avatar.png";
 import Tilt from "react-parallax-tilt";
+import Fade from 'react-reveal/Fade';
 import {
   AiFillGithub,
   AiFillMail,
@@ -11,19 +12,24 @@ import { FaLinkedinIn } from "react-icons/fa";
 
 function About() {
   return (
-    <Container fluid className="home-about-section" id="about">
+    <Container fluid className="section" id="about">
       <Container>
         <Row>
         <Col md={4} className="myAvtar">
+        <Fade left>
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>
+            </Fade>
           </Col>
+          
           <Col md={8} className=" ">
-            <h1 style={{ fontSize: "2.6em" }}>
+          <Fade left cascade>
+          <div>
+            <h1 className="section__heading">
               LET ME <span className="blue"> INTRODUCE </span> MYSELF
             </h1>
-            <p className="home-about-body">
+            <p className="about__body">
             I am a Master of Science (M.S.) student in Artificial Intelligence at Shahid Beheshti University, Tehran, Iran, and I completed my B.Sc. in Computer Engineering there with a GPA of 3.93/4. 
             <br/  >
             I joined the <b className="blue">NLP lab</b> during the third year of my BSc studies, where we worked on “identification and word embedding of Persian verbal multiword expressions”. 
@@ -36,6 +42,8 @@ function About() {
             <br/>
             Regarding research interest, I am genuinely passionate about using NLP and Computer Vision techniques to address a wide range of theoretical and application issues, such as improving the performance of multimodal representation learning methods, and recommender systems.
             </p>
+            </div>
+            </Fade>
             </Col>
         </Row>
         

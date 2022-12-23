@@ -1,11 +1,20 @@
 import React from "react";
 import "../../style.css";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/about.png";
+import car from "../../Assets/project/car.png";
+import color from "../../Assets/project/color.png";
+import ea from "../../Assets/project/ea2.jpg";
+import ana from "../../Assets/project/ana.png";
+import face from "../../Assets/project/fa.jpg";
+import app from "../../Assets/project/app.jpg";
+import verb from "../../Assets/project/verb.png";
+import seg from "../../Assets/project/seg.jpeg";
+import stock from "../../Assets/project/stock.jpeg";
+import hashtag2 from "../../Assets/project/hashtag2.jpeg";
+import Slide from 'react-reveal/Slide';
 import {
   AiFillGithub,
   AiFillMail,
@@ -15,47 +24,125 @@ import { FaLinkedinIn } from "react-icons/fa";
 
 function Project() {
   return (
-    <Container fluid className="home-about-section" id="project">
+    <Container fluid className="section" id="project">
       <Container style={{ paddingBottom: '11rem'}}>
       <Particle />
-      <Row className="sec_sp">
-          <h1 className="project-heading">
+      <Row className="section__row">
+      <Slide left>
+          <h1 className="section__heading">
           My Recent <strong className="blue">Projects </strong>
         </h1>
+        </Slide>
+        <Slide left>
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
         </p>
+        </Slide>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+          <Col lg={3} md={4} sm={6} xs={12} className="project_card">
             <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              imgPath={hashtag2}
+              isBlog={true}
+              title="Personalized Image Tag Refinement by Leveraging KGs"
+              description="Implemented a system that considers KG and user history to generate tags for social media images"
+              msg="MSc thesis"
+              class="project_card__view--btn_position"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col lg={3} md={4} sm={6} xs={12} className="project_card">
             <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              imgPath={verb}
+              isBlog={true}
+              title="Identification & Embedding of Persian Verbal MWEs (VMWEs)"
+              description="identifying VMWEs
+and generating word embedding that capture their semantic meaning"
+              msg="Paper under publication"
+              class="project_card__view--msg_position"
             />
           </Col>
-
-          <Col md={4} className="project-card">
+          <Col lg={3} md={4} sm={6} xs={12} className="project_card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={ea}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Emergency assistant"
+              description="Developed a website for informing local forces about needed supplies for affected areas
+using React, NodeJs, Graphql, and Mongo-DB."
+class="project_card__view--btn_position"
+              ghLink="https://github.com/MahtabSarlak/InternetEngineering_course_99/tree/master/Emergency-assistant/emergencio-nodejs"         
+            />
+          </Col>
+          <Col lg={3} md={4} sm={6} xs={12} className="project_card">
+            <ProjectCard
+              imgPath={car}
+              isBlog={false}
+              title="Counting and classifying Iraninan cars"
+              description="Implemented a model based on transfer learning to classify
+cars and YOLO object detection
+for counting"
+              ghLink="https://github.com/MahtabSarlak/Counting-classifying-car-images-using-ViT"  
+              class="project_card__view--btn_position"       
+            />
+          </Col>
+          <Col lg={3} md={4} sm={6} xs={12} className="project_card">
+            <ProjectCard
+              imgPath={seg}
+              isBlog={false}
+              title="Medical image segmentation"
+              description="Segmented medical images using U-NET based models on four datasets."
+              ghLink="https://github.com/MahtabSarlak/Medical-Image-Segmentation"    
+              class="project_card__view--btn_position"     
+            />
+          </Col>
+          <Col lg={3} md={4} sm={6} xs={12} className="project_card">
+            <ProjectCard
+              imgPath={color}
+              isBlog={false}
+              title="Image Colorization"
+              description="Solved the image colourization task as a pixel-wise classification problem using different
+U-Net-like networks."
+              ghLink="https://github.com/MahtabSarlak/DL-spring2022/tree/main/hw1" 
+              class="project_card__view--btn_position"        
+            />
+          </Col>
+          <Col lg={3} md={4} sm={6} xs={12} className="project_card">
+            <ProjectCard
+              imgPath={stock}
+              isBlog={false}
+              title="Stock Price Prediction"
+              description="Predicted stock price by solving a time-series problem using RNN-based networks."
+              ghLink="https://github.com/MahtabSarlak/DL-spring2022/tree/main/hw3" 
+              class="project_card__view--btn_position"        
+            />
+          </Col>
+          <Col lg={3} md={4} sm={6} xs={12} className="project_card">
+            <ProjectCard
+              imgPath={ana}
+              isBlog={false}
+              title="Persian Analogy Evaluation"
+              description="Introduced language models for solving SAT-based analogy tests in Persian."
+              ghLink="https://github.com/MahtabSarlak/SAT-based-analogy-test-in-Persian"
+              class="project_card__view--btn_position"         
+            />
+          </Col>
+          <Col lg={3} md={4} sm={6} xs={12} className="project_card">
+            <ProjectCard
+              imgPath={face}
+              isBlog={false}
+              title="Facial expression recognition"
+              description="Proposed CNN models to recognize facial expressions."
+              class="project_card__view--btn_position"
+              ghLink="https://github.com/MahtabSarlak/Facial-Expression-Recognition/blob/master/README.md"         
+            />
+          </Col>
+          <Col lg={3} md={4} sm={6} xs={12} className="project_card">
+            <ProjectCard
+              imgPath={app}
+              isBlog={false}
+              title="Play store application score prediction"
+              description="Predicted score that is given to an application based on user’s comment."
+              class="project_card__view--btn_position"
+              ghLink="https://github.com/MahtabSarlak/Data-Mining-2021"         
             />
           </Col>
         </Row>

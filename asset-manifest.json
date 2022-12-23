@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1b5a4105.css",
+    "main.js": "/static/js/main.df9da49e.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/mb.png": "/static/media/mb.844b5f37036c64bd2a5e.png",
+    "static/media/nlp.png": "/static/media/nlp.f3c95c3c5bda2bbfc6c9.png",
+    "static/media/CV_Mahtab_Sarlak.pdf": "/static/media/CV_Mahtab_Sarlak.d14bbf7e4b2efb8957b4.pdf",
+    "static/media/bg-5.jpg": "/static/media/bg-5.86b1068e3cb743409fb4.jpg",
+    "static/media/fa.jpg": "/static/media/fa.c45108c099f630759b7a.jpg",
+    "static/media/ea2.jpg": "/static/media/ea2.8b72b740bbb6ae4e8755.jpg",
+    "static/media/avatar.png": "/static/media/avatar.5c8a2cb22fa941da0cc8.png",
+    "static/media/app.jpg": "/static/media/app.578ef1474e0267899cb4.jpg",
+    "static/media/verb.png": "/static/media/verb.0e9673d4669d02fb2b44.png",
+    "static/media/stock.jpeg": "/static/media/stock.7fe6b6dcac683d439e4b.jpeg",
+    "static/media/color.png": "/static/media/color.a05f33db52065a068a0a.png",
+    "static/media/pre.svg": "/static/media/pre.7415f93a5a60206ecfed.svg",
+    "index.html": "/index.html",
+    "main.1b5a4105.css.map": "/static/css/main.1b5a4105.css.map",
+    "main.df9da49e.js.map": "/static/js/main.df9da49e.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1b5a4105.css",
+    "static/js/main.df9da49e.js"
+  ]
+}

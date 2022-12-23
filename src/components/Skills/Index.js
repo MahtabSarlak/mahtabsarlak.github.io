@@ -1,3 +1,4 @@
+
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Tilt from "react-parallax-tilt";
@@ -28,8 +29,9 @@ function Skills() {
     value: 70,
 },
 ];
-  return (
-    <Container fluid className="skill_section" id="skill">
+
+    return (
+      <Container fluid className="skill_section" id="skill">
       <Container style={{ paddingBottom: '11rem'}}>
       <Particle />
       <Row className="section__row">

@@ -30,7 +30,7 @@ function Project() {
       <Row className="section__row">
       <Slide left>
           <h1 className="section__heading">
-          My Recent <strong className="blue">Projects </strong>
+          My Recent <strong className="section__blue">Projects </strong>
         </h1>
         </Slide>
         <Slide left>

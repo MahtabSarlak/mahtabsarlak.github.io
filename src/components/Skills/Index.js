@@ -38,7 +38,7 @@ function Skills() {
           <Col md={5}>
           <Fade left>
           <h1 className="section__heading">
-              Selected <span className="blue"> Skills </span>
+              Selected <span className="section__blue"> Skills </span>
             </h1>
             </Fade>
             </Col>

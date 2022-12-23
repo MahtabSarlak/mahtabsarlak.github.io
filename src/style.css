@@ -80,15 +80,11 @@ html {
 }
 
 /* --------- */
-<<<<<<< HEAD
 /* global    */
-=======
-/* Index section */
->>>>>>> 7338c2f8f14197512c0bcb14c927b063be3a5066
 /* --------- */
 
 .blue {
-  color: var(--imp-text-color) !important;
+  color: #7088f0 !important;
 }
 
 .section {

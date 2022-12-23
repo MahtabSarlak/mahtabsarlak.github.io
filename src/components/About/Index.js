@@ -18,7 +18,7 @@ function About() {
         <Col md={4} className="myAvtar">
         <Fade left>
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={myImg} className="myAvtar__img_fluid" alt="avatar" />
             </Tilt>
             </Fade>
           </Col>

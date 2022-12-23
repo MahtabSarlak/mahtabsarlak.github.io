@@ -228,6 +228,11 @@ html {
   padding-top: 9em !important;
 }
 
+.myAvtar__img_fluid{
+  border-radius: 50%;
+  width: 70% !important;
+}
+
 @media (max-width: 767px) {
   .myAvtar {
     padding-top: 2em !important;

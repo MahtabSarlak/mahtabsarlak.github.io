@@ -1,16 +1,15 @@
-<h2 align="center">
-  Portfolio Website<br/>
-  <a href="" target="_blank">link</a>
+<h2 align="left">
+ My Portfolio<br/><br/>
 </h2>
+<p>
+My personal portfolio <a href="https://mahtabsarlak.github.io/" target="_blank">link</a> which features some of my github projects as well as my resume and technical skills.<br/>
+</p>
+
 <div align="center">
   <img alt="Demo" src="./Images/demo.png" />
 </div>
 
-<br/>
-
 ## Built With
-
-My personal portfolio <a href="" target="_blank">link</a> which features some of my github projects as well as my resume and technical skills.<br/>
 
 This project was built using these technologies.
 

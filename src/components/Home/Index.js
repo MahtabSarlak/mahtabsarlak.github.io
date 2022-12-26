@@ -38,7 +38,7 @@ function Home() {
                 <Type />
               </div>
             </Col>
-            <Col md={4} style={{ paddingBottom: 0 }}>
+            <Col md={4} style={{ paddingBottom: 0, textAlign: "center" }}>
               <img
                 src="https://media.giphy.com/media/f6hnhHkks8bk4jwjh3/giphy.gif"
                 alt="home pic"

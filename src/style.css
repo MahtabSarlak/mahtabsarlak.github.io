@@ -511,6 +511,53 @@ html {
 }
 
 /* --------- */
+/* Publication */
+/* --------- */
+
+.pub_card__view__img{
+  max-width: 100%;
+  height: auto;
+}
+.my_pub{
+  max-width: 100%;
+  height: auto;
+}
+.pub_card {
+  padding: 3rem 20px !important;
+  height: auto !important;
+}
+
+.pub_card__view {
+  padding-top: 10px;
+  border: none;
+  color: white !important;
+  background-color: transparent !important;
+  /* background: linear-gradient(to bottom, rgb(18, 20, 70), rgb(0 0 0));
+  opacity: 0.9 !important;
+  transition: all 0.5s ease 0s !important; */
+  min-height: 400px;
+    height: 100% !important;
+    font-size: small;
+}
+
+.pub_card__view--btn_position{
+  position: absolute;
+  /* bottom: 0; */
+  /* margin-bottom: 10px; */
+  /* right: 30%; */
+}
+
+
+.pub_section {
+  position: relative;
+  /* padding-bottom: 10rem !important; */
+  padding-top: 8rem !important;
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 80%);
+  background: linear-gradient( transparent 0px,rgba(0, 0, 0, 0.6)100% );
+  color: white !important;
+}
+
+/* --------- */
 /* Contact */
 /* --------- */
 

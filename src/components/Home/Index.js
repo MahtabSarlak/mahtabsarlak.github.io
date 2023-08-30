@@ -6,6 +6,7 @@ import About from "../About/Index";
 import Resume from "../Resume/Index";
 import Skills from "../Skills/Index";
 import Project from "../Project/Index";
+import Publication from "../Publication/Index";
 import Contact from "../Contact/Index"
 import Type from "./Type";
 import {
@@ -53,6 +54,7 @@ function Home() {
       <About />
       <Skills />
       <Certificate />
+      <Publication />
       <Project />
       <Contact />
     </section>

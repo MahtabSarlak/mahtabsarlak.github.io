@@ -12,12 +12,13 @@ import {
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Skills() {
-  const skills = [{
-    name: "Python/Pytorch/Tenserflow",
+  const skills = [
+{
+    name: "Java/SpringBoot",
     value: 90,
 },
 {
-    name: "Java/SpringBoot",
+    name: "Python/Pytorch/Tenserflow",
     value: 85,
 },
 {

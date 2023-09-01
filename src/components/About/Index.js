@@ -35,7 +35,7 @@ function About() {
             I joined the <b className="section__blue">NLP lab</b> during the third year of my BSc studies, where we worked on compositionality of Persian verbal multiword expressions. 
             <br/>
             Currently, I as a <b className="section__blue">Computer Vision researcher</b>, I am working on my MSc thesis entitled “Personalized Image Tag Refinement by Leveraging Knowledge Graphs(KGs)”. 
-            <br/>
+            <br/> <br/>
             I bring over three years of expertise as a Java Back-End developer, specializing in crafting payment applications using <b className="section__blue">Spring Boot</b>. Additionally, 
             I have about two years of experience working with <b className="section__blue">React</b> and <b className="section__blue">Angular </b> for Front-End development. 
             This combined skill set allows me to seamlessly integrate robust back-end functionality with compelling front-end interfaces.           

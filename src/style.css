@@ -87,12 +87,16 @@ html {
   color: #7088f0 !important;
 }
 
+.section__left{
+  text-align: left;
+}
+
 .section {
   position: relative;
   padding-bottom: 10rem !important;
   padding-top: 8rem !important;
-  clip-path: polygon(0 0,100% 0,100% 91%,0 100%);
-  background: linear-gradient(transparent 0px, rgba(0, 0, 0, 0.6) 100%);
+  /* clip-path: polygon(0 0,100% 0,100% 91%,0 100%); */
+  /* background: linear-gradient(transparent 0px, rgba(0, 0, 0, 0.6) 100%); */
   color: white !important;
 }
 
@@ -248,15 +252,15 @@ html {
   padding-bottom: 70px !important;
   padding-top: 70px !important;
   background: linear-gradient(transparent 2px, rgba(0, 0, 0, 0.8) 100%);
-  clip-path: polygon(0 0,100% 0,100% 91%,0 100%);
+  /* clip-path: polygon(0 0,100% 0,100% 91%,0 100%); */
 }
 .skill-section{
-  clip-path: polygon(0 0,100% 0,0 100%,);
+  /* clip-path: polygon(0 0,100% 0,0 100%,); */
   color: whitesmoke;
   position: relative;
   padding-bottom: 70px !important;
   padding-top: 70px !important;
-  background: linear-gradient(transparent 2px, rgba(0, 0, 0, 0.8) 100%);
+  /* background: linear-gradient(transparent 2px, rgba(0, 0, 0, 0.8) 100%); */
 }
 
 .home-about-description {
@@ -451,12 +455,83 @@ html {
   }
 }
 /* --------- */
+/* Work      */
+/* --------- */
+
+.work_section {
+  /* background-image: linear-gradient(to left,#29007e,#00e0ff);  */
+  /* clip-path: polygon(0 0,100% 12%,100% 90%,0 100%); */
+  padding: 12rem 0 15rem;
+  margin-top: -15rem;
+  color: #fff;  
+}
+
+.work_card {
+  padding: 10px 10px !important;
+  /* padding: 3rem 20px !important; */
+  height: auto !important;
+}
+.work_card__view--btn_position{
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 10px;
+  right: 30%;
+}
+.work_card__view--msg_position{
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 10px;
+  right: 10%;
+}
+
+.work_card__view {
+  padding-top: 10px;
+  border: none;
+  background: white;
+  opacity: 0.9 !important;
+  transition: all 0.5s ease 0s !important;
+  min-height: 400px;
+    height: 100% !important;
+    font-size: small;
+}
+.work_card__view:hover {
+  transform: scale(1.02) !important;
+  overflow: hidden !important;
+  box-shadow: 0 1px 10px 3px #7088f0 !important;
+}
+
+.work_card__view__img{
+
+  max-width: 100%;
+  height: auto;
+}
+
+/* .section__heading {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 30px;
+} */
+
+
+.work_card__view--h5 {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.work_card__view--p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* --------- */
 /* certificate */
 /* --------- */
 
 .certificate_section{
-  background-image: linear-gradient(to left,#29007e,#00e0ff); 
-  clip-path: polygon(0 0,100% 12%,100% 90%,0 100%);
+  /* background-image: linear-gradient(to left,#29007e,#00e0ff);  */
+  /* background: linear-gradient(transparent 2px, rgba(0, 0, 0, 0.8) 100%); */
+  /* clip-path: polygon(0% 10%,100% 0,100% 90%,0 100%); */
   padding: 12rem 0 15rem;
   margin-top: -15rem;
   color: #fff;
@@ -552,8 +627,8 @@ html {
   position: relative;
   /* padding-bottom: 10rem !important; */
   padding-top: 8rem !important;
-  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 80%);
-  background: linear-gradient( transparent 0px,rgba(0, 0, 0, 0.6)100% );
+  /* clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 80%);
+  background: linear-gradient( transparent 0px,rgba(0, 0, 0, 0.6)100% ); */
   color: white !important;
 }
 
@@ -562,8 +637,8 @@ html {
 /* --------- */
 
 .contact_section{
-  background-image: linear-gradient(to left,#29007e,#00e0ff); 
-  clip-path: polygon(0 15vh,100% 0,100% 100%,0 100%);
+  /* background-image: linear-gradient(to left,#29007e,#00e0ff); 
+  clip-path: polygon(0 15vh,100% 0,100% 100%,0 100%); */
   padding: 10rem 0 5rem;
   margin-top: -15rem;
   color: #fff;

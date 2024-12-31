@@ -14,8 +14,12 @@ import { FaLinkedinIn } from "react-icons/fa";
 function Skills() {
   const skills = [
 {
-    name: "Java/SpringBoot",
-    value: 90,
+    name: "Java/SpringBoot/Microservice",
+    value: 100,
+},
+{
+  name: "Docker/kubernetes",
+  value: 80,
 },
 {
     name: "Python/Pytorch/Tenserflow",

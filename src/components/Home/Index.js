@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import About from "../About/Index";
 import Resume from "../Resume/Index";
 import Skills from "../Skills/Index";
+import Work from "../Work/Index";
 import Project from "../Project/Index";
 import Publication from "../Publication/Index";
 import Contact from "../Contact/Index"
@@ -53,10 +54,11 @@ function Home() {
       <Resume />
       <About />
       <Skills />
+      <Work/>
       <Certificate />
       <Publication />
       <Project />
-      <Contact />
+      {/* <Contact /> */}
     </section>
   );
 }

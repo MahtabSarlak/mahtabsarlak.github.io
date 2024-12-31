@@ -57,7 +57,7 @@ function Project() {
               title="Identification & Embedding of Persian Verbal MWEs (VMWEs)"
               description="identifying VMWEs
 and generating word embedding that capture their semantic meaning"
-              msg="Paper under publication"
+              msg="Published research paper"
               class="project_card__view--msg_position"
             />
           </Col>
